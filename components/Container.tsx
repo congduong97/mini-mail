@@ -1,5 +1,6 @@
 import { SafeAreaView, StyleSheet, ViewProps, ViewStyle } from "react-native";
 import { SIZE } from "../utils";
+import { StatusBar } from "expo-status-bar";
 
 interface ContainerProps extends ViewProps {
   style?: ViewStyle;

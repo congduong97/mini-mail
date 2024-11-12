@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/icon1.png",
         "backgroundColor": "#ffffff"
       },
-      "package":"com.minimail"
+      "package": "com.minimail"
     },
     "web": {
       "bundler": "metro",
@@ -29,7 +29,20 @@
     },
     "plugins": [
       "expo-router",
-      "@react-native-google-signin/google-signin"
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/roboto/Roboto_900Black.ttf",
+            "node_modules/@expo-google-fonts/roboto/Roboto_700Bold.ttf",
+            "node_modules/@expo-google-fonts/roboto/Roboto_500Medium.ttf",
+            "node_modules/@expo-google-fonts/roboto/Roboto_400Regular.ttf",
+            "node_modules/@expo-google-fonts/roboto/Roboto_300Light.ttf",
+            "node_modules/@expo-google-fonts/roboto/Roboto_100Thin.ttf"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
