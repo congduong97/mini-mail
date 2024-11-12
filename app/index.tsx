@@ -5,11 +5,7 @@ import Container from "@/components/Container";
 import { COLORS, FONTS, SIZE } from "@/utils";
 
 const Auth = () => {
-  return (
-    <Container style={styles.container}>
-      <Text style={styles.title}>Welcome!</Text>
-    </Container>
-  );
+  return <Container style={styles.container}></Container>;
 };
 
 export default Auth;
