@@ -42,7 +42,8 @@
             "node_modules/@expo-google-fonts/roboto/Roboto_100Thin.ttf"
           ]
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
